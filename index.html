@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div class="speaker">
+      <div class="speaker__header">
+        <p class="speaker__header__maintext">
+          View our Featured Speakers for the Event
+        </p>
+        <p class="speaker__header__subtext">
+          Speakers are core contributors and industry thought leaders working at
+          companies that push for innovation.
+        </p>
+      </div>
+
+      <div class="speaker__list">
+       
+      </div>
+
+      <div class="speaker__btn">
+        <button>See the Program</button>
+      </div>
+    </div> -->
+
+    <section class="speakers">
+      <h2 class="speakers__title">View our Featured Speakers for the Event</h2>
+      <p class="speakers__description">
+        Speakers are core contributors and industry thought leaders working at
+        <span class="speakers__description--highlight">companies</span> that
+        push for innovation.
+      </p>
+
+      <img
+        src="./style/images/left.png"
+        class="speakers__carousel-control speakers__carousel-control--prev"
+      />
+
+      <div class="speakers__carousel">
+        <div class="speakers__cards">
+          <div class="speakers__card" style="cursor: pointer">
+            <img
+              class="speakers__card-image"
+              src="./style/images/speaker1.png"
+              alt="John Doe"
+            />
+            <h3 class="speakers__card-name">John Doe</h3>
+            <p class="speakers__card-position">Chief Marketing Officer</p>
+            <p class="speakers__card-company">Acme Corp</p>
+          </div>
+
+          <div class="speakers__card" style="cursor: pointer">
+            <img
+              class="speakers__card-image"
+              src="./style/images/speaker2.png"
+              alt="John Doe"
+            />
+            <h3 class="speakers__card-name">John Doe</h3>
+            <p class="speakers__card-position">Chief Engagement Officer</p>
+            <p class="speakers__card-company">Acquia</p>
+          </div>
+          <div class="speakers__card" style="cursor: pointer">
+            <img
+              class="speakers__card-image"
+              src="./style/images/speaker3.png"
+              alt="John Doe"
+            />
+            <h3 class="speakers__card-name">John Doe</h3>
+            <p class="speakers__card-position">Chief Technical Developer</p>
+            <p class="speakers__card-company">Pantheon</p>
+          </div>
+          <div class="speakers__card" style="cursor: pointer">
+            <img
+              class="speakers__card-image"
+              src="./style/images/speaker4.png"
+              alt="John Doe"
+            />
+            <h3 class="speakers__card-name">John Doe</h3>
+            <p class="speakers__card-position">Chief Marketing Officer</p>
+            <p class="speakers__card-company">Specbee</p>
+          </div>
+
+          <div class="speakers__card" style="cursor: pointer">
+            <img
+              class="speakers__card-image"
+              src="./style/images/speaker1.png"
+              alt="John Doe"
+            />
+            <h3 class="speakers__card-name">John Doe</h3>
+            <p class="speakers__card-position">Chief Marketing Officer</p>
+            <p class="speakers__card-company">Acme Corp</p>
+          </div>
+          <div class="speakers__card" style="cursor: pointer">
+            <img
+              class="speakers__card-image"
+              src="./style/images/speaker2.png"
+              alt="John Doe"
+            />
+            <h3 class="speakers__card-name">John Doe</h3>
+            <p class="speakers__card-position">Chief Engagement Officer</p>
+            <p class="speakers__card-company">Acquia</p>
+          </div>
+          <div class="speakers__card" style="cursor: pointer">
+            <img
+              class="speakers__card-image"
+              src="./style/images/speaker3.png"
+              alt="John Doe"
+            />
+            <h3 class="speakers__card-name">John Doe</h3>
+            <p class="speakers__card-position">Chief Technical Developer</p>
+            <p class="speakers__card-company">Pantheon</p>
+          </div>
+          <div class="speakers__card" style="cursor: pointer">
+            <img
+              class="speakers__card-image"
+              src="./style/images/speaker4.png"
+              alt="John Doe"
+            />
+            <h3 class="speakers__card-name">John Doe</h3>
+            <p class="speakers__card-position">Chief Marketing Officer</p>
+            <p class="speakers__card-company">Specbee</p>
+          </div>
+        </div>
+      </div>
+
+      <img
+        src="./style/images/right.png"
+        class="speakers__carousel-control speakers__carousel-control--next"
+      />
+
+      <button class="speakers__button">See the Program</button>
+
+      <div class="modal" id="speakerModal">
+        <div class="modal__content">
+          <button class="modal__close" id="closeModal">&times;</button>
+          <div class="modal__header">
+            <img
+              src=""
+              alt="Speaker Image"
+              class="modal__image"
+              id="modalImage"
+            />
+            <div class="modal__info">
+              <h3 class="modal__name" id="modalName">John Doe</h3>
+              <p class="modal__position" id="modalPosition">
+                Chief Marketing Officer
+              </p>
+              <p class="modal__company" id="modalCompany">Specbee</p>
+            </div>
+          </div>
+          <p class="modal__description" id="modalDescription">
+            Monotonectally synergize business communities rather than
+            client-centric convergence...
+          </p>
+          <div class="modal__actions">
+            <button class="modal__icon">🔗</button>
+            <button class="modal__icon">✉️</button>
+            <button class="modal__icon">📅</button>
+            <button class="modal__icon">✔️</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
